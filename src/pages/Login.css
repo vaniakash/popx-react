@@ -1,7 +1,7 @@
 .login {
   width: 100%;
   min-height: 844px;
-  background: #ffffff;
+  background: #F7F7F7;
   display: flex;
   flex-direction: column;
 }

@@ -1,41 +1,21 @@
 .landing {
   width: 100%;
   min-height: 844px;
+  background: #F7F7F7;
   display: flex;
   flex-direction: column;
-  background: #ffffff;
-  position: relative;
-  overflow: hidden;
-}
-
-.bubbles-area {
-  position: relative;
-  height: 460px;
-  width: 100%;
-}
-
-.bubble {
-  position: absolute;
-  border-radius: 50%;
-  background-color: #EFA922;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: translate(-50%, -50%);
+  justify-content: flex-end;
 }
 
 .landing-content {
-  padding: 0 28px 40px 28px;
+  padding: 0 28px 60px 28px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .landing-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
   color: #1b1b1b;
   line-height: 1.2;
@@ -45,12 +25,12 @@
   font-size: 14px;
   color: #6a6a6a;
   line-height: 1.6;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .btn-primary {
   width: 100%;
-  padding: 16px;
+  padding: 17px;
   background-color: #6C25FF;
   color: #ffffff;
   border: none;
@@ -68,7 +48,7 @@
 
 .btn-secondary {
   width: 100%;
-  padding: 16px;
+  padding: 17px;
   background-color: #EDD8FF;
   color: #1b1b1b;
   border: none;
